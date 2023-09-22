@@ -1,0 +1,655 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: lavender;
+    box-sizing: border-box;
+}
+body{
+  height: 90rem;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+  .sec1-1{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box1{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.75s;
+    z-index: 1;
+  }
+
+  .sec1-1:hover .box1{
+    transform: rotate(45deg);
+ }
+
+ .bbox1{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(128, 128, 128, 0.378);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    z-index: 2;
+ }
+
+  .sec1-2{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box2{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+
+  }
+  .sec1-2:hover .box2{
+    transform: rotatex(45deg);
+  }
+  .sec1-3{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box3{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec1-3:hover .box3{
+    transform: rotatey(45deg);
+  }
+
+  .sec1-4{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box4{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+
+  }
+
+  .sec1-4:hover .box4{
+    transform: scale(2);
+  }
+
+  .sec1-5{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box5{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+
+  }
+
+  .sec1-5:hover .box5{
+    transform: scalex(2);
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.sec2-1{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+  .box21{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 1s;
+    z-index: 1;
+  }
+
+  .sec2-1:hover .box21{
+    transform: scaley(3);
+ }
+
+  .sec2-2{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box22{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec2-2:hover .box22{
+    transform: skewx(50deg);
+ }
+
+  .sec2-3{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box23{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+
+  .sec2-3:hover .box23{
+    transform: skewy(50deg) ;
+ }
+
+  .sec2-4{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box24{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec2-4:hover .box24{
+    transform: translate(2.81rem, 1.3rem)
+ }
+
+  .sec2-5{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box25{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec2-5:hover .box25{
+    translate: 2.7rem;
+ }
+
+
+ .section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.sec3-1{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+  .box31{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 1s;
+  }
+
+  .sec3-1:hover .box31{
+    transform: translatey(4rem);
+}
+
+  .sec3-2{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+  .box32{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 1s;
+  }
+
+  .sec3-2:hover .box32{
+    transform: skewy(40deg) scale(2) translate(1.3rem,-1rem)
+  }
+
+  .section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .sec4-1{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box41{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    padding-left: 5rem;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 1s;
+
+  }
+
+  .sec4-1:hover .box41{
+    transform: perspective(85px) rotatex(45deg)
+  }
+
+
+  .sec4-2{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+
+  }
+
+
+    .box42{
+      width: 5.5rem;
+      height: 5.5rem;
+      background-color: rgba(137, 43, 226, 0.49);
+      position: absolute;
+      top: 1.2rem; left: 2.65rem;
+      transition: all 1s;
+  
+    }
+
+    .sec4-2:hover .box42{
+      transform: perspective(85px) rotatey(45deg)
+    }
+
+    .section5{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 4rem;
+  }
+  .sec5-1{
+      width: 11rem;
+      height: 8rem;
+      background-color: white;
+      margin: 0 2rem;
+      position: relative;
+    }
+    .box51{
+      width: 5.5rem;
+      height: 5.5rem;
+      background-color: rgba(137, 43, 226, 0.49);
+      display: flex;
+      position: absolute;
+      top: 1.2rem; left: 2.65rem;
+      transition: all 1.5s;
+      z-index: 1;
+    }
+  
+    .sec5-1:hover .box51{
+     transform-origin: top right; transform:  rotate(45deg);
+   }
+  
+    .sec5-2{
+      width: 11rem;
+      height: 8rem;
+      background-color: white;
+      margin: 0 2rem;
+      position: relative;
+    }
+  
+    .box52{
+      width: 5.5rem;
+      height: 5.5rem;
+      background-color: rgba(137, 43, 226, 0.49);
+      display: flex;
+      position: absolute;
+      top: 1.2rem; left: 2.65rem;
+      transition: all 1.5s;
+    }
+  
+    .sec5-2:hover .box52{
+      transform-origin: bottom left; transform:  rotate(45deg);
+    }
+  
+    .sec5-3{
+      width: 11rem;
+      height: 8rem;
+      background-color: white;
+      margin: 0 2rem;
+      position: relative;
+    }
+  
+    .box53{
+      width: 5.5rem;
+      height: 5.5rem;
+      background-color: rgba(137, 43, 226, 0.49);
+      display: flex;
+      position: absolute;
+      top: 1.2rem; left: 2.65rem;
+      transition: all 0.7s;
+    }
+
+    .sec5-3:hover .box53{
+    transform: perspective(200px) rotatex(45deg) ;
+    transform-origin: bottom;
+    }
+
+
+    .sec5-4{
+      width: 11rem;
+      height: 8rem;
+      background-color: white;
+      margin: 0 2rem;
+      position: relative;
+    }
+  
+    .box54{
+      width: 5.5rem;
+      height: 5.5rem;
+      background-color: rgba(137, 43, 226, 0.49);
+      display: flex;
+      position: absolute;
+      top: 1.2rem; left: 2.65rem;
+      transition: all 0.7s;
+    }
+  
+    .sec5-4:hover .box54{
+      transform: perspective(230px) rotatex(60deg) ;
+      transform-origin: top;
+     }
+  
+    .sec5-5{
+      width: 11rem;
+      height: 8rem;
+      background-color: white;
+      margin: 0 2rem;
+      position: relative;
+    }
+  
+    .box55{
+      width: 5.5rem;
+      height: 5.5rem;
+      background-color: rgba(137, 43, 226, 0.49);
+      display: flex;
+      position: absolute;
+      top: 1.2rem; left: 2.65rem;
+      transition: all 0.7s;
+    }
+  
+    .sec5-5:hover .box55{
+      transform: perspective(200px) rotatey(45deg) ;
+      transform-origin: left;
+       }
+
+   .section6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.sec6-1{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+  .box61{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 1s;
+    z-index: 1;
+  }
+
+  .sec6-1:hover .box61{
+    transform: perspective(270px) rotatey(50deg) ;
+    transform-origin: right;
+ 
+ }
+
+  .sec6-2{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box62{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec6-2:hover .box62{
+    transform-origin: top right;
+    transform: scale(2); 
+ }
+
+  .sec6-3{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box63{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+
+  .sec6-3:hover .box63{
+    transform-origin: bottom left;
+    transform: scale(2); 
+ }
+
+  .sec6-4{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box64{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec6-4:hover .box64{
+    transform-origin: right;
+    transform: scaleX(2); }
+
+  .sec6-5{
+    width: 11rem;
+    height: 8rem;
+    background-color: white;
+    margin: 0 2rem;
+    position: relative;
+  }
+
+  .box65{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(137, 43, 226, 0.49);
+    display: flex;
+    position: absolute;
+    top: 1.2rem; left: 2.65rem;
+    transition: all 0.7s;
+  }
+
+  .sec6-5:hover .box65{
+    transform-origin: left;
+    transform: scaleX(2); }
+
+ .section7{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.sec7-1{
+  width: 11rem;
+  height: 8rem;
+  background-color: white;
+  margin: 0 2rem;
+  position: relative;
+}
+.box71{
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: rgba(137, 43, 226, 0.49);
+  display: flex;
+  position: absolute;
+  top: 1.2rem; left: 2.65rem;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.sec7-1:hover .box71{
+/* transform: perspective(45px) rotatex(45deg) ; */
+transform-origin: top;
+transform: scaleY(2);
+
+}
+
+.sec7-2{
+  width: 11rem;
+  height: 8rem;
+  background-color: white;
+  margin: 0 2rem;
+  position: relative;
+}
+
+.box72{
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: rgba(137, 43, 226, 0.49);
+  display: flex;
+  position: absolute;
+  top: 1.2rem; left: 2.65rem;
+  transition: all 0.7s;
+}
+
+.sec7-2:hover .box72{
+  transform-origin: bottom;
+  transform: scaleY(2);
+
+}
